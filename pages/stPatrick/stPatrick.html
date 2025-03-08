@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>St. Patrick objects (clover)</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="../../css/styles.css">
+    </head>
+    <body>
+        <nav class="custom-nav">
+            <a href="../../index.html" class="nav-button">Main</a>
+            <a href="stPatrick_hat.html" class="nav-button">Next</a>
+        </nav>
+
+        <main class="container-sm">
+            <h1>St. Patrick Objects</h1>
+            <figure class="text-center">
+                <blockquote class="blockquote">
+                    <p>"it doesn't have to be perfect, just needs to be belivable"</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    Not me, someone else said this
+                </figcaption>
+            </figure>
+
+            <h2>Overview</h2>
+            <img src="../../img/stPatrick/stPatrick.png" class="img-fluid" alt="stPatrick">
+            <p>Simple cubes can look nice  when used properly, learning how to extrude can help form the cube to various things, in the picture above, it formed a pot of gold, a hat and a 4-leaf clover.</p>
+
+            <h2>4 leaf clover</h2>
+            <h3>Step 1: scale the default cube</h3>
+            <p>you need to scale the cube so it becomes a "kinda" flat rectangle, click on the cube and press the 'S' key to scale the cube, notice how your cube will scale big or small, depending on how close your mouse cursor is to your object</p>
+            <video class="img-fluid" controls>
+                <source src="../../videos/2025-03-07 19-22-21.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>      
+            <p>pressing 'X', 'Y' or 'Z' on the keyboard while scaling allows you to scale in the respective axis (you can see a glow in the lines when you press for certain axis)</p>
+            <p>Your goal is to make this rectangle</p>
+            <img src="../../img/stPatrick/rectangle.png" class="img-fluid" alt="stPatrick">
+
+            <h3>Step 2: subdivide and extrude</h3>
+            <p>You need to jump to edit mode in order to do this, go find a dropdown menu that has the word 'Object mode' and then click on edit mode</p>
+            <img src="../../img/stPatrick/edit_mode.png" class="img-fluid" alt="stPatrick">
+            <p>Edit mode will be the primary mode on forming your cubes through extrusion, but first, learn some shortcuts, pressing '1', '2' and '3' will let you switch  select modes on your object, which is vertex(dot), edge(line) and face(face). Or you can just click on the modes next to the dropdown</p>
+            <img src="../../img/stPatrick/select_modes.png" class="img-fluid" alt="stPatrick">
+            <p>set the select mode to 'Face' and press 'A', this shortcut lets you select all the faces in that object, this would be the time to right-click, and click 'subdivide'</p>
+            <img src="../../img/stPatrick/subdivide.png" class="img-fluid" alt="stPatrick">
+            <p>'subdivide' essentially works like cutting a cake to smaller pieces, it makes your rectangle, once failled with one face, now just got divided to 4 more on each side</p>
+            <p>Now you need to 'Shift + left click' the two faces highlighted on the picture, right click and select extrude, or, press 'E' to extrude</p>
+            <img src="../../img/stPatrick/extrude.png" class="img-fluid" alt="stPatrick">
+            <p>Your rectangle should look something like, this</p>
+            <img src="../../img/stPatrick/L.png" class="img-fluid" alt="stPatrick">
+
+            <h3>Step 3: Duplicate and mirroring</h3>
+            <p>Go back to object mode and click on your L shape object, press 'Shift + D' to duplicate, bear in mind once you do this, the duplicate will float along your cursor, as long as you don't left click, the duplicate won't let go, you would need to duplicate and move it horizontally, placing it beside the original</p>
+            <video class="img-fluid" controls>
+                <source src="../../videos/2025-03-07 20-01-04.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Next, click on the duplicate object and press 'Ctrl + M' to mirror the duplicate, the mirroring won't work unless you specify the axis, 'X', 'Y' or 'Z', if you are not used to axis yet, try all the axis and see which one gives this:</p>
+            <img src="../../img/stPatrick/2L.png" class="img-fluid" alt="stPatrick">
+            <p>Lastly, 'Shift + left click' to select both L's and duplicate them, mirror them to a certain axis, and try get this: (press 'G' to grab a certain object, press one of the axis to move them across that axis)</p>
+            <img src="../../img/stPatrick/clover.png" class="img-fluid" alt="stPatrick">
+
+            <h3>Step 4: Parenting and finishing touches</h3>
+            <p>the clover is missing a branch, press 'Shift + A' and click mesh -> cube to add a cube, scale and form it to a branch and somehow fit it in the clover, here is a video attempt of me spamming 'G' and 'S': </p>
+            <video class="img-fluid" controls>
+                <source src="../../videos/2025-03-07 20-13-59.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>It doesn't have to be perfect. It won't matter much in the long run.</p>
+            <p>Finally, 'Shift + left click' all the 4 L's and then the branch last, click 'Ctrl + P' to parent, what this does is it makes a group, linked to the branch, that way, when you wish to move your clover or rotate it, all you gotta do is move the branch</p>
+            <video class="img-fluid" controls>
+                <source src="../../videos/2025-03-07 20-18-04.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <h3>Many shortcuts, many features</h3>
+            <p>one thing at a time, with practice, you will be able to use shortcuts and keybinds without even thinking about it, Blender relies on it's shortcuts to boost productivity, knowing which to press makes your life much easier than doing a bunch of clicks.</p>
+        </main>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="" async defer></script>
+    </body>
+</html>
